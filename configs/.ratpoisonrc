@@ -1,0 +1,11 @@
+set border 0
+escape C-X
+bind c exec terminology
+bind C exec terminology -S v-h
+bind b exec firefox
+bind f exec firefox --remote "openurl(`$RATPOISON -c getsel`,new-tab)" # `C-f' : open link in new tab
+bind T exec tty-clock
+bind m exec mc
+bind i exec irssi
+
+# bind c exec rxvt -rv +sb -sl 1000 -font 9x15 -ls # Decent rxvt term if you prefer
