@@ -1,13 +1,13 @@
 What Drat Is
 
-Drat is a GNU/Linux distrobution which is basically ubuntu with ratpoison tiling window manager tweaked and configured 
-into a functional destop environment that was designed as a personal solution for a specific set of circumstances and 
-restrictions. The main one was only having access to a borrowed laptop, off which the only way to use linux was via 
-usb. After using a live enbironment for a good few months, setting up your desktop as you like it, with all the rc 
-files and things you want to install gets ever so tiresome. Persistent usb's corrupt (for me at least) within days and 
-the option to install proper to usb wasn't an option, with only one usb to run linux on and only windows to use to 
-install an linux on usb, which was never going to happen. Even if there is a way, there isn't. Drat is my already 
-configured and set up live usb what how I like it. If you like it too splendid. :)
+Drat is a GNU/Linux distrobution which is basically ubuntu with ratpoison tiling window manager and Terminology tweaked 
+and configured into a functional destop environment that was designed as a personal solution for a specific set of 
+circumstances and restrictions. The main one was only having access to a borrowed laptop, off which the only way to use 
+linux was via usb. After using a live enbironment for a good few months, setting up your desktop as you like it, with 
+all the rc files and things you want to install gets ever so tiresome. Persistent usb's corrupt (for me at least) 
+within days and the option to install proper to usb wasn't an option, with only one usb to run linux on and only 
+windows to use to install an linux on usb, which was never going to happen. Even if there is a way, there isn't. Drat 
+is my already configured and set up live usb what how I like it. If you like it too splendid. :)
 
 
 What Drat Isn't 
