@@ -9,7 +9,7 @@
 sudo apt-get install -y xinit xterm xcompmgr terminology mc scrot irssi tty-clock nsnake
 
 # Copy configs
-cp ~/drat/configs/.xinit .ratpoison ~/
+cp ~/drat/configs/* .
 
 # Shutdown lightdm and startx
 sudo service lightdm stop
