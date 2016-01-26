@@ -9,9 +9,9 @@
 sudo apt-get update && sudo apt-get install -y xinit xterm xcompmgr terminology mc scrot irssi tty-clock nsnake
 
 # Copy configs
-cp ~/drat/configs/* .
+cp ~/drat/configs/.* ~/
 
 # Shutdown lightdm and startx
+
 sudo service lightdm stop
-sleep 1
-sudo startx
+startx
