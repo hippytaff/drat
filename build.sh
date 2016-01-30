@@ -9,7 +9,7 @@
 sudo apt-get update && sudo apt-get install -y ratpoison xinit xterm xcompmgr terminology mc scrot irssi tty-clock nsnake firefox tree
 
 # Copy configs
-cp ~/drat/configs/.* ~/
+sudo cp ~/drat/configs/.* ~/
 
 # Shutdown lightdm and startx
 
