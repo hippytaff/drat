@@ -1,0 +1,20 @@
+#!/bin/bash
+# Script to read .dratrc for user configuration. Default if no dratrc
+#
+# Vars
+chkdrc="$(~/.dratrc)"
+
+# Parse .dratrc and configure relevant configs and .rc's
+setup(){
+echo "setup..."
+}
+
+# Check for .dratrc
+if [[ -z "chkdrc" ]]; then
+    exit
+else
+    setup
+fi
+
+
+
