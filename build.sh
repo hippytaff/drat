@@ -8,10 +8,13 @@
 # Get deps
 sudo apt-get update && sudo apt-get install -y ratpoison xinit xterm xcompmgr terminology mc scrot irssi tty-clock nsnake firefox tree flashplugin-installer
 
+# Clean-up
+sudo apt-get autoremove -y
+
 # Copy configs
 sudo cp ~/drat/configs/.* ~/
+sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
 
 # Shutdown lightdm and startx
-
 sudo service lightdm stop
 startx
