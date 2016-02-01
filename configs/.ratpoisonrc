@@ -1,7 +1,7 @@
 set border 0
 escape C-X
-bind c exec terminology
-bind C exec terminology -S vh -e mc $SHELL 'tty-clock -c'
+bind C exec terminology
+bind c exec terminology -S vh -e mc $SHELL 'tty-clock -c'
 bind B exec firefox
 bind t exec firefox --remote "openurl(`$RATPOISON -c getsel`,new-tab)" # `C-t' : open link in new tab
 bind m exec terminology -e mc
