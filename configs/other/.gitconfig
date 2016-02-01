@@ -1,3 +1,6 @@
 [user]
-	email = hippytaff@gmail.com
-	name = hippytaff
+email = hippytaff@gmail.com
+name = hippytaff
+
+# For ref
+# git remote set-url origin https://name:password@github.com/repo.git
