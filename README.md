@@ -1,12 +1,8 @@
 # drat
 
-Work in progress...sort of
+Work in progress...getting there.
 
 Todo
 - build from minimal
-- Work out why can't bind irssi, mc and tty-clock
 - pre-release iso (one that I won't be too ashamed to share)
-
-Wishlit
-- Themes/start-up configurations
-
+- Proper README/docs
