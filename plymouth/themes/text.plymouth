@@ -1,6 +1,6 @@
 [Plymouth Theme]
 Name=Drat Text
-Description=Text mode theme based on bodhi-logo theme
+Description=Text mode theme based on drat-logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
