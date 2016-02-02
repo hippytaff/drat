@@ -14,7 +14,7 @@ sudo apt-get autoremove -y
 # Copy configs
 sudo cp ~/drat/configs/.* ~/
 sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
-
+sudo cp ~/drat/drat-logo.png .drat/
 # Shutdown lightdm and startx
 sudo service lightdm stop
 startx
