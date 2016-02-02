@@ -1,6 +1,6 @@
 set border 0
 escape C-X
-bind C exec terminology
+bind C exec terminology -b .drat/drat-logo.png
 bind c exec terminology -S vh -e mc $SHELL 'tty-clock -c'
 bind B exec firefox
 bind t exec firefox --remote "openurl(`$RATPOISON -c getsel`,new-tab)" # `C-t' : open link in new tab
