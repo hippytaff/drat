@@ -1,9 +1,15 @@
 # drat
 
-Work in progress...getting there.
+Work in progress...Alpha-POC-pre-release almost done.
 
 Todo
-- plymouth - test
-- build from minimal
 - pre-release iso (one that I won't be too ashamed to share)
+
+Ongoing
 - Proper README/docs
+
+Beta Release
+- startx from login (no dm)
+- images (logo.png too bright
+- proper configuration for terminology and rp (rather than .rc's)
+
