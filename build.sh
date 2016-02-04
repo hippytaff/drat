@@ -4,9 +4,10 @@
 # - run from $HOME
 
 # TODO
-# - Tidy up and fool proof (only if used by not me)
+# - Tidy up and fool proof (only if used by not me, even though I'm a fool)
 
 # Add Bodhilinux repo for E and Terminology that Jeff looks after
+sudo cp /etc/apt/sources.list /etc/apt/~sources.list
 sudo echo "## Bodhi Linux Repository - for E and Terminology for now..." >> /etc/apt/sources.list
 sudo echo "deb http://packages.bodhilinux.com/bodhi trusty main" >> /etc/apt/sources.list
 
@@ -16,8 +17,8 @@ sudo apt-get update && sudo apt-get install -y xorg ubiquity ratpoison xinit xte
 # Clean-up
 sudo apt-get autoremove -y
 
-# Copy configs - to do: put files in relelvant /etc/pkgrc
-sudo cp ~/drat/configs/.* ~/
+# Copy configs
+sudo cp ~/drat/configs/ratpoisonrc /etc/ratpoisonrc
 sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
 mkdir .drat
 sudo cp ~/drat/drat-logo.png ~/usr/share/terminology/backgrounds
