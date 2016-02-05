@@ -12,7 +12,7 @@ sudo apt-get update && sudo apt-get install -y ratpoison xinit xterm xcompmgr te
 sudo apt-get autoremove -y
 
 # Copy configs
-sudo cp ~/drat/configs/.* ~/
+sudo cp ~/drat/old/.rapoisonrc ~/
 sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
 mkdir .drat
 sudo cp ~/drat/drat-logo.png .drat/
