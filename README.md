@@ -1,15 +1,13 @@
 # drat
 
-Work in progress...Alpha-POC-pre-release almost done.
-
-Todo
-- pre-release iso (one that I won't be too ashamed to share)
+Alpha-POC-pre-release done and uploaded to sourceforge (sorry)
 
 Ongoing
 - Proper README/docs
 
+Todo
+- More dynamic buildscript for to build on different platforms - for I am lazy
 Beta Release
 - startx from login (no dm)
-- images (logo.png too bright
-- proper configuration for terminology and rp (rather than .rc's)
+- bkgnd image (logo.png too bright)
 
