@@ -12,10 +12,10 @@ sudo apt-get update && sudo apt-get install -y ratpoison xinit xterm xcompmgr te
 sudo apt-get autoremove -y
 
 # Copy configs
-cp /drat/configs/rapoisonrc .
-mv ratpoisonrc .ratpoisonrc
-sudo cp /drat/configs/other/.gitconfig . # My gitconfig
-sudo cp /drat/configs/.xinit .
+cp ~/drat/configs/rapoisonrc ~/
+mv ~/ratpoisonrc ~/.ratpoisonrc
+sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
+sudo cp ~/drat/configs/.xinitrc ~/
 mkdir .drat
 sudo cp /drat/drat-logo.png .drat/
 # Shutdown lightdm and startx
