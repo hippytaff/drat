@@ -12,7 +12,7 @@ sudo apt-get update && sudo apt-get install -y ratpoison xinit xterm xcompmgr te
 sudo apt-get autoremove -y
 
 # Copy configs
-cp ~/drat/configs/rapoisonrc ~/
+cp ~/drat/configs/ratpoisonrc ~/
 mv ~/ratpoisonrc ~/.ratpoisonrc
 sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
 sudo cp ~/drat/configs/.xinitrc ~/
