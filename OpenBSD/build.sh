@@ -14,6 +14,6 @@
 # Copy configs
 sudo cp ~/drat/share/configs/.ratpoisonrc ~/
 sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
-
+sudo cp ~/drat/configs/.xinit ~/
 # start xserver
 startx
