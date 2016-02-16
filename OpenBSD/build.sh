@@ -12,7 +12,7 @@
 # Clean-up
 
 # Copy configs
-sudo cp ~/drat/configs/ratpoisonrc /etc/ratpoisonrc
+sudo cp ~/drat/share/configs/.ratpoisonrc ~/
 sudo cp ~/drat/configs/other/.gitconfig ~/ # My gitconfig
 
 # start xserver

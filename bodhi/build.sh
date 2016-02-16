@@ -13,8 +13,8 @@ sudo apt-get update && sudo apt-get install -y xorg ratpoison xinit xterm xcompm
 sudo apt-get autoremove -y
 
 # Copy configs
-sudo cp ~/drat/shared/configs/.ratpoisonrc /etc/ratpoisonrc
-sudo cp ~/drat/shared/configs/other/.gitconfig ~/ # My gitconfig
+sudo cp ~/drat/share/configs/.ratpoisonrc /etc/ratpoisonrc
+sudo cp ~/drat/share/configs/other/.gitconfig ~/ # My gitconfig
 
 # start xserver
 sudo service lightdm stop
