@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=Drat Theme
-Description=Drat Theme
-ModuleName=script
-
-[script]
-ImageDir=/lib/plymouth/themes/drat-theme
-ScriptFile=/lib/plymouth/themes/drat-theme/drat.script
