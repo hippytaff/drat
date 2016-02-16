@@ -6,8 +6,6 @@ Ongoing
 - Proper README/docs
 
 Todo
-- More dynamic buildscript for to build on different platforms - for I am lazy
-Beta Release
-- startx from login (no dm)
-- bkgnd image (logo.png too bright)
-
+build scripts for listed platforms
+iso images - linux (GNU/Linux Distro)
+port - OpenBSD (Desktop Environment)
