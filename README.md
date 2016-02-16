@@ -7,5 +7,3 @@ Ongoing
 
 Todo
 build scripts for listed platforms
-iso images - linux (GNU/Linux Distro)
-port - OpenBSD (Desktop Environment)

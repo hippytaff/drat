@@ -1,31 +1,32 @@
 What Drat Is
 
-Drat is a GNU/Linux distribution which is basically ubuntu with ratpoison tiling window manager and Terminology tweaked 
-and configured into a functional destop environment that was designed as a personal solution for a specific set of 
-circumstances and restrictions. The main one was only having access to a borrowed laptop, off which the only way to use 
-linux was via usb. After using a live enbironment for a good few months, setting up your desktop as you like it, with 
-all the rc files and things you want to install gets ever so tiresome. Persistent usb's corrupt (for me at least) 
-within days and the option to install proper to usb wasn't an option, with only one usb to run linux on and only 
-windows to use to install an linux on usb, which was never going to happen. Even if there is a way, there isn't. Drat 
-is my already configured and set up live usb what how I like it. If you like it too splendid. :)
+Basically ratpoison tiling window manager and Terminology tweaked and configured into a functional destop environment 
+that was designed as a personal solution for a specific set of circumstances and restrictions. The main one was only 
+having access to a borrowed laptop, off which the only way to use linux was via usb. After using live environments for 
+a good few months, setting up your desktop as you like it, with all the rc files and things you want to install gets 
+ever so tiresome. Persistent usb's corrupt (for me at least) within days and the option to install proper to usb wasn't 
+an option, with only one usb to run linux on and only windows to use to install an linux on usb, which was never going 
+to happen. Even if there is a way, there isn't. Drat is my already configured and set up live usb what how I like it. 
+If you like it too splendid. :)
 
-Drat is also a Desktop Environment for OpenBSD (and possibly other BSD's if I've gotten that far) The rest, sam as above.
 
 What Drat Isn't 
 
 Drat isn't anything other than a personal solution to a...it say's up there ^ When I mentioned this to people in irc 
 and around and about their reactions were always, just get a cheap laptop, just get a bouple of cheap usb sticks etc. 
 And while this is an obvious solution, and one I am usually not too stoned to work out for myself, this was not an 
-option either. Things were tough. Fun, but tough...So this about feels like more of a justification than an about even 
+option either. Things were tough. Fun, but tough...This about feels like more of a justification than an about even 
 though I've made this thing for myself.
 
 
 What's in Drat-linux
 
-Ubuntu base, Ratpoisonwm, Terminology terminal emulator (default), Midnight Commander, irssi, firefox, tty-clock, tree 
-and some other cli stuff.
+Base OS (listed below), Ratpoisonwm, Terminology terminal emulator (default), Midnight Commander, irssi, firefox, tty-clock, 
+tree and some other cli stuff.
 
-The BSD DEs are the same with the *BSD base.
+Base OS Currently there are build scripts in development ubuntu-minimal, bodhi-linux and OpenBSD, my three fave to 
+date, the plan is to soon have packages for said platforms.)
+
 
 Why is it called Drat?
 
@@ -36,9 +37,13 @@ The name was going to be deadrat, which as with anything GNU/linux, quickly got 
 
 Installing Drat
 
-You can - download the iso from the drat sourceforge page - https://sourceforge.net/projects/drat-linux/files/?source=navbar
-	- Get the build-scripts from this here github
-	- Install the pkg from this mirror {not done yet}
+- Get the build-scripts from this here github and build it.
+- OpenBSD
+Install the pkg from this mirror {not done yet}
+
+- GNU/Linux
+Get the Deb files from this place {not done yet}
+
 Some links
 http://www.nongnu.org/ratpoison
 https://www.enlightenment.org/about-terminology
