@@ -1,0 +1,9 @@
+#!/bin/bash
+# drat help info
+# Usage: /.drathelp for now
+
+echo "
+help
+
+ this
+"
