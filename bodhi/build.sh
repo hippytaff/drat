@@ -15,6 +15,8 @@ sudo apt-get autoremove -y
 # Copy configs
 sudo cp ~/drat/share/configs/.*rc ~/
 sudo cp ~/drat/share/configs/other/.gitconfig ~/ # My gitconfig
+sudo cp ~/drat/share/configs/other/.bashrc ~/ # My bashrc
+
 # start xserver
 sudo service lightdm stop
 startx
